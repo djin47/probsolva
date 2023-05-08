@@ -1,15 +1,14 @@
 @import "colors";
 
 nav{
-    width: 100%;
-    padding: 1rem;
+    width:100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position:sticky;
     background-color: $first;
+    position: sticky;
+    justify-content: space-between;
     top:0%;
     z-index: 10;
+    padding: 1.5rem;
     >h1{
         text-transform: uppercase;
     }
@@ -17,12 +16,12 @@ nav{
         width: 70%;
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         >a{
             color: $dark;
-            margin: 1rem;
-
+            padding: 0 1rem;
             &:hover{
-                color:$third;
+                color: $third;
             }
         }
     }

@@ -1,0 +1,17 @@
+[33mcommit 24389358d0545ec05000414d0b173647a0b1b53b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jindal <dhjindal@deloitte.com>
+Date:   Tue May 2 23:31:51 2023 +0530
+
+    EOD 5/2/2023
+
+[33mcommit 8dc0f43f9a2c74b7f2df5f7ab5677bd90d56ebf6[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Jindal <dhjindal@deloitte.com>
+Date:   Tue May 2 19:14:36 2023 +0530
+
+    initial commit
+
+[33mcommit 7084b091afd731a583f2868ca1d944a1ef722371[m
+Author: Jindal <dhjindal@deloitte.com>
+Date:   Tue May 2 18:51:24 2023 +0530
+
+    Initialize project using Create React App
