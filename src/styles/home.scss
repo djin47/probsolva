@@ -95,6 +95,60 @@
     }
 }
 
+.home4{
+    width:100%;
+    height:100vh;
+    background-color: $second;
+    display: flex;
+    justify-content: flex-end;
+    >main{
+        background-color: $third;
+        width: 70%;
+        height: 70%;
+        border-radius: 200px 0 0 200px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        >h1{
+            color: $first;
+            text-transform: uppercase;
+            font-size: 2.25rem;
+            border-bottom: 2px solid $first;
+            padding: 0.4rem;
+            margin: 1rem;
+        }
+        >div{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            >div{
+                width:150px;
+                height:150px;
+                background-color: $first;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin:1rem;
+                &:hover{
+                    filter:invert(1);
+                }
+                >svg{
+                    width:45%;
+                    height:45%;
+                }
+                >p{
+                    font: 600 1.25rem $text2;
+                }
+            }
+        }
+    }
+}
+ 
 @keyframes upAni {
     to{
         transform: translateY(-10px);

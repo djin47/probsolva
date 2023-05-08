@@ -1,5 +1,12 @@
 import React from "react";
 import vg from "../assets/2.webp";
+import {
+  AiFillYoutube,
+  AiFillGoogleCircle,
+  AiFillAmazonCircle,
+  AiFillInstagram,
+} from "react-icons/ai";
+
 const Home = () => {
   return (
     <>
@@ -38,6 +45,29 @@ const Home = () => {
             qui fuga quae repellat sunt, non natus, iure ab officia rem ipsa cum
             sed cumque corporis voluptate quibusdam nostrum quod saepe
           </p>
+        </main>
+      </div>
+      <div className="home4" id="brands">
+        <main>
+          <h1>Brands</h1>
+          <div>
+            <div style={{animation: "upAni 0.5s linear infinite alternate"}}>
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+            <div style={{animation: "upAni 0.7s linear infinite alternate"}}>
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+            <div style={{animation: "upAni 0.8s linear infinite alternate"}}>
+              <AiFillYoutube />
+              <p>Youtube</p>
+            </div>
+            <div style={{animation: "upAni 0.85s linear infinite alternate"}}>
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </div>
+          </div>
         </main>
       </div>
     </>
